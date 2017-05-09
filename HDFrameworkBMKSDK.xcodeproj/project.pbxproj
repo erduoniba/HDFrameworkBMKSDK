@@ -28,7 +28,6 @@
 		D915B9781EC197640065FF6B /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D915B9771EC197640065FF6B /* CoreTelephony.framework */; };
 		D915B97A1EC1976B0065FF6B /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D915B9791EC1976B0065FF6B /* libsqlite3.0.tbd */; };
 		D915B97C1EC197710065FF6B /* libstdc++.6.0.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D915B97B1EC197710065FF6B /* libstdc++.6.0.9.tbd */; };
-		D915B99A1EC199110065FF6B /* mapapi.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D915B9991EC199110065FF6B /* mapapi.bundle */; };
 		D915B9BC1EC1A5810065FF6B /* HDFrameworkBMKSDK.podspec in Resources */ = {isa = PBXBuildFile; fileRef = D915B9BB1EC1A5810065FF6B /* HDFrameworkBMKSDK.podspec */; };
 /* End PBXBuildFile section */
 
@@ -56,7 +55,6 @@
 		D915B9771EC197640065FF6B /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 		D915B9791EC1976B0065FF6B /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
 		D915B97B1EC197710065FF6B /* libstdc++.6.0.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.0.9.tbd"; path = "usr/lib/libstdc++.6.0.9.tbd"; sourceTree = SDKROOT; };
-		D915B9991EC199110065FF6B /* mapapi.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = mapapi.bundle; sourceTree = "<group>"; };
 		D915B9BB1EC1A5810065FF6B /* HDFrameworkBMKSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; fileEncoding = 4; path = HDFrameworkBMKSDK.podspec; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
@@ -122,7 +120,6 @@
 		D915B9561EC197100065FF6B /* BaiduMapKit */ = {
 			isa = PBXGroup;
 			children = (
-				D915B9981EC199110065FF6B /* Resources */,
 				D915B9571EC197100065FF6B /* BaiduMapAPI_Base.framework */,
 				D915B9581EC197100065FF6B /* BaiduMapAPI_Cloud.framework */,
 				D915B9591EC197100065FF6B /* BaiduMapAPI_Location.framework */,
@@ -158,15 +155,6 @@
 				D915B96B1EC1973C0065FF6B /* CoreLocation.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		D915B9981EC199110065FF6B /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				D915B9991EC199110065FF6B /* mapapi.bundle */,
-			);
-			name = Resources;
-			path = BaiduMapAPI_Map.framework/Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -239,7 +227,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D915B99A1EC199110065FF6B /* mapapi.bundle in Resources */,
 				D915B9BC1EC1A5810065FF6B /* HDFrameworkBMKSDK.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
